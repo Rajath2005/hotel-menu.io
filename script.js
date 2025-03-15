@@ -1,14 +1,14 @@
 // Sample Data
 const menuData = {
   beverages: [
-    { name: "Masala Chai", price: "₹40", image: "icon/masala.jpeg" },
-    { name: "Lassi", price: "₹50", image: "icon/lassi.jpeg" },
-    { name: "Filter Coffee", price: "₹45", image: "icon/filter.jpeg" },
-    { name: "Aam Panna", price: "₹55", image: "icon/Aam Panna.jpeg" },
-    { name: "Jaljeera", price: "₹45", image: "icon/jaljeera.jpeg" },
-    { name: "Thandai", price: "₹70", image: "icon/thandai.jpeg" },
-    { name: "Sugarcane Juice", price: "₹35", image: "icon/sugar-cane.jpeg" },
-    { name: "Badam Milk", price: "₹60", image: "icon/badam.jpeg" }
+    { name: "Masala Chai", price: "₹40", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058735/filter_jjaozc.jpg" },
+    { name: "Lassi", price: "₹50", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058741/lassi_ttxyta.jpg" },
+    { name: "Filter Coffee", price: "₹45", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058735/filter_jjaozc.jpg" },
+    { name: "Aam Panna", price: "₹55", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058721/Aam_Panna_wksjn8.jpg" },
+    { name: "Jaljeera", price: "₹45", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058740/jaljeera_gd575s.jpg" },
+    { name: "Thandai", price: "₹70", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058734/beverages_gjavoo.jpg" },
+    { name: "Sugarcane Juice", price: "₹35", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058734/beverages_gjavoo.jpg" },
+    { name: "Badam Milk", price: "₹60", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058722/badam_yxzzs7.jpg" }
 ],
 
 chinese: [
