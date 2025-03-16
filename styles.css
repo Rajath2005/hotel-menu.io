@@ -262,6 +262,28 @@ footer .designer {
   font-weight: bold;
 }
 
+/* Contact and WhatsApp Styling */
+.contact-info {
+  margin-bottom: 10px;
+}
+
+.whatsapp-logos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.whatsapp-logos a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.whatsapp-logos a img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
 /* Responsive Design */
  /* Responsive Design */
 @media (max-width: 768px) {
