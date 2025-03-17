@@ -16,7 +16,7 @@ chinese: [
   { name: "Hakka Noodles", price: "₹130", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058737/hakka_h7hgwg.jpg" },
   { name: "Vegetable Spring Rolls", price: "₹90", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058738/Chinese_Cuisine_lmmpm6.jpg" },
   { name: "Vegetable Chow Mein", price: "₹130", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058741/chowmein_vsaxqu.jpg" },
-  { name: "Hot and Sour Soup (Veg)", price: "₹100", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058755/soup_ob0fap.jpg" },
+  { name: "Hot and Sour Soup (Veg)", price: "₹100", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058755/soup_obhccu.jpg" },
   { name: "Gobi Manchurian", price: "₹110", image: "https://res.cloudinary.com/dacpbywfp/image/upload/v1742058737/Gobi_yvhcct.jpg" }
 ],
 
