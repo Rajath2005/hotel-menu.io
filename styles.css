@@ -8,6 +8,7 @@ body {
   transition: background-color 0.3s ease;
   position: relative;
   min-height: 100vh;
+  padding-bottom: 50px;
 }
 
 body::before {
