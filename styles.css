@@ -245,28 +245,21 @@ footer {
     width: 100%;
     font-size: 14px;
     color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* Designer Name */
 footer .designer {
     font-weight: bold;
     color: #ff914d;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Space between name and WhatsApp icon */
 }
 
-/* WhatsApp Icons Container */
-.whatsapp-container {
-    display: flex;
-    gap: 15px;
-    margin-top: 5px;
-}
-
-/* WhatsApp Icon Styling */
+/* WhatsApp Icon */
 .whatsapp-icon {
-    width: 40px; /* Adjusted size */
-    height: 40px;
+    width: 18px; /* Adjusted size */
+    height: 18px;
     filter: drop-shadow(0px 0px 3px rgba(37, 211, 102, 0.8));
     transition: transform 0.2s ease-in-out;
 }
