@@ -234,16 +234,26 @@ header {
   transform: scale(1.05);
 }
 
-/* Footer Styling */
+/* Ensure body takes full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Push content to fill space and keep footer at the bottom */
+.main-content {
+    flex: 1; /* This pushes the footer to the bottom */
+}
+
+/* Footer styling */
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: rgba(0, 0, 0, 0.9);
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    font-size: 14px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
     color: white;
 }
 
