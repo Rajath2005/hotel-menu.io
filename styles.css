@@ -236,40 +236,43 @@ header {
 
 /* Footer Styling */
 footer {
-  text-align: center;
-  padding: 10px 0;  /* Reduce padding */
-  background: rgba(0, 0, 0, 0.7);  /* Darker background with slight transparency */
-  position: fixed;  /* Stick footer at the bottom */
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  font-size: 14px;  /* Reduce text size */
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  height: 50px; /* Set fixed height */
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Designer Name */
 footer .designer {
-  font-weight: bold;
-  font-size: 16px;
-  color: #ff914d;  /* Maintain the orange text */
+    font-weight: bold;
+    color: #ff914d;
 }
 
-/* WhatsApp Icon */
+/* WhatsApp Icons Container */
+.whatsapp-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+/* WhatsApp Icon Styling */
 .whatsapp-icon {
-  width: 18px; /* Adjust icon size */
-  height: 18px;
-  filter: drop-shadow(0px 0px 3px rgba(37, 211, 102, 0.8));
-  transition: transform 0.2s ease-in-out;
+    width: 40px; /* Adjusted size */
+    height: 40px;
+    filter: drop-shadow(0px 0px 3px rgba(37, 211, 102, 0.8));
+    transition: transform 0.2s ease-in-out;
 }
 
 .whatsapp-icon:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
