@@ -1,25 +1,39 @@
-/* General Styles */
-body {
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-  padding: 0;
-  background: url('https://res.cloudinary.com/dacpbywfp/image/upload/v1742058337/bc_xm1ftg.jpg') no-repeat center center/cover;
-  color: #fff;
-  transition: background-color 0.3s ease;
-  position: relative;
-  min-height: 100vh;
+/* Ensure full-height background */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Darker overlay for better contrast */
-  z-index: -1;
+/* Background Image Fix */
+body {
+    font-family: 'Playfair Display', serif;
+    background: url('https://res.cloudinary.com/dacpbywfp/image/upload/v1742058337/bc_xm1ftg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+/* Fix Content Wrapping */
+.main-content {
+    flex: 1;
+}
+
+/* Dark Overlay for Better Readability */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    z-index: -1;
+}
+
 
 .container {
   display: flex;
