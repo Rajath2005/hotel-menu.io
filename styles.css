@@ -3,12 +3,11 @@ body {
   font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
-  background: url('bc.jpg') no-repeat center center/cover;
+  background: url('https://res.cloudinary.com/dacpbywfp/image/upload/v1742058337/bc_xm1ftg.jpg') no-repeat center center/cover;
   color: #fff;
   transition: background-color 0.3s ease;
   position: relative;
   min-height: 100vh;
-  padding-bottom: 50px;
 }
 
 body::before {
@@ -31,6 +30,48 @@ body::before {
   text-align: center;
   padding: 20px;
 }
+/* QR Code Section */
+.qr-section {
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.qr-section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* QR Text */
+.qr-section p {
+  font-size: 1.2rem;
+  color: #ffb400; /* Highlight text color */
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+/* QR Image */
+.qr-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+/* QR Image Hover */
+.qr-section img:hover {
+  transform: rotate(5deg) scale(1.1);
+}
 
 
 /* Title Styling */
@@ -49,6 +90,7 @@ h1 {
   -webkit-text-fill-color: transparent; /* For Safari and older Chrome */
   
   animation: fadeInDown 1s ease;
+  
 }
 @keyframes fadeInDown {
   from {
@@ -71,7 +113,6 @@ h1 {
 .page.active {
   display: block;
 }
-
 
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -119,6 +160,7 @@ header {
   transform: translateY(-10px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
   background: rgba(255, 255, 255, 0.3);
+
 }
 
 /* Improved Image Placement */
@@ -237,50 +279,48 @@ header {
 
 /* Ensure body takes full height */
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Push content to fill space and keep footer at the bottom */
 .main-content {
-    flex: 1; /* This pushes the footer to the bottom */
+  flex: 1; /* This pushes the footer to the bottom */
 }
 
 /* Footer styling */
 footer {
-    width: 100%;
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    color: white;
+  width: 100%;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: white;
 }
 
 /* Designer Name */
 footer .designer {
-    font-weight: bold;
-    color: #ff914d;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px; /* Space between name and WhatsApp icon */
+  font-weight: bold;
+  color: #ff914d;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px; /* Space between name and WhatsApp icon */
 }
 
 /* WhatsApp Icon */
 .whatsapp-icon {
-    width: 18px; /* Adjusted size */
-    height: 18px;
-    filter: drop-shadow(0px 0px 3px rgba(37, 211, 102, 0.8));
-    transition: transform 0.2s ease-in-out;
+  width: 18px; /* Adjusted size */
+  height: 18px;
+  filter: drop-shadow(0px 0px 3px rgba(37, 211, 102, 0.8));
+  transition: transform 0.2s ease-in-out;
 }
 
 .whatsapp-icon:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
-
-/* Responsive Design */
+ /* Responsive Design */
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
