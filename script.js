@@ -122,4 +122,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 500);
 });
 
+window.onload = function () {
+    console.log("Footer loaded correctly.");
+};
+
+
   
