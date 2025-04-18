@@ -1,4 +1,4 @@
-# 🏨 hotel-menu.io
+# 🏨 Hotel-Menu Card
 
 A sleek and modern digital hotel menu built with HTML, CSS, and JavaScript.  
 Browse through a stylish selection of food categories and filter items easily by type. Perfect for hotels, cafes, or restaurant websites looking to digitize their food menu.
