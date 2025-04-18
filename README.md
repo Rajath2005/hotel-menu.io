@@ -33,8 +33,65 @@ Browse through a stylish selection of food categories and filter items easily by
 ## 📂 Project Structure
 
 ```bash
-hotel-menu.io/
-│
-├── index.html          # Main HTML file
-├── style.css           # Stylesheet
-└── script.js           # JavaScript for interactivity
+```
+📦 
+├─ LICENSE
+├─ README.md
+├─ bc.jpg
+├─ bc1.jpg
+├─ icon
+│  ├─ Aam Panna.jpeg
+│  ├─ Chinese Cuisine.jpeg
+│  ├─ Gobi.jpeg
+│  ├─ badam.jpeg
+│  ├─ beverages.jpg
+│  ├─ biriyani.jpeg
+│  ├─ biryani.jpeg
+│  ├─ butterscotch.jpeg
+│  ├─ chapathi.jpeg
+│  ├─ chilli.jpeg
+│  ├─ chocolate.jpeg
+│  ├─ chole.jpeg
+│  ├─ chowmein.jpeg
+│  ├─ curd.jpeg
+│  ├─ dal.jpeg
+│  ├─ desssert.jpeg
+│  ├─ filter.jpeg
+│  ├─ gulab.jpeg
+│  ├─ hakka.jpeg
+│  ├─ indian-cuisine.jpeg
+│  ├─ jalebi.jpeg
+│  ├─ jaljeera.jpeg
+│  ├─ jeera.jpeg
+│  ├─ kheer.jpeg
+│  ├─ kulfi.jpeg
+│  ├─ lassi.jpeg
+│  ├─ lemon.jpeg
+│  ├─ malpuva.jpeg
+│  ├─ mango.jpeg
+│  ├─ masala-d.jpeg
+│  ├─ masala.jpeg
+│  ├─ mysore.jpeg
+│  ├─ naan.jpeg
+│  ├─ north.jpeg
+│  ├─ paneer.jpeg
+│  ├─ panner.jpeg
+│  ├─ pulao.jpeg
+│  ├─ rasgulla.jpeg
+│  ├─ samosa.jpeg
+│  ├─ schezwan.jpeg
+│  ├─ soup.jpeg
+│  ├─ south.jpeg
+│  ├─ special.jpeg
+│  ├─ spring.jpeg
+│  ├─ strawberry.jpeg
+│  ├─ sugar-cane.jpeg
+│  ├─ thandai.jpeg
+│  ├─ tomato.jpeg
+│  ├─ vanilla.jpeg
+│  ├─ veg-fried.jpeg
+│  └─ veg.jpeg
+├─ index.html
+├─ script.js
+└─ styles.css
+```
