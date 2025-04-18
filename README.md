@@ -9,7 +9,7 @@ Browse through a stylish selection of food categories and filter items easily by
 
 ## 📸 Preview
 
-![Preview](https://user-images.githubusercontent.com/your-image-link-if-available)
+![Preview](Preview.png)
 
 ---
 
