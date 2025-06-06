@@ -324,14 +324,14 @@ footer .designer {
 }
 
 /* WhatsApp Icon */
-.whatsapp-icon {
+.Github-icon {
   width: 18px; /* Adjusted size */
   height: 18px;
   filter: drop-shadow(0px 0px 3px rgba(37, 211, 102, 0.8));
   transition: transform 0.2s ease-in-out;
 }
 
-.whatsapp-icon:hover {
+.Github-icon:hover {
   transform: scale(1.1);
 }
  /* Responsive Design */
